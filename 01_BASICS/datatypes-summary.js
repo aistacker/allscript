@@ -19,7 +19,7 @@ const anotherID= Symbol('123')
 
 const bigNumber=3464576854768675658n
 
-console.log(typeof(bigNumber));
+//onsole.log(typeof(bigNumber));
 
 
 // Reference type   non-premitive
@@ -42,12 +42,35 @@ let obj={
 
 const myFunction = function(){
 
-    console.log("hello world");
+   // console.log("hello world");
     
 }
 
- console.log(typeof(myFunction));
+ //console.log(typeof(myFunction));
  
+
+ let myName ="Vishal"
+
+ let anotherName=myName
+anotherName ="rahul"
+
+ console.log(anotherName);
+console.log(myName);
+
+let userOne={
+    email: "xyz@gmail.com",
+    upi:"user@ybl"
+
+}
+ 
+
+let userTwo=userOne
+
+userTwo.email="fheiuh@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
 
