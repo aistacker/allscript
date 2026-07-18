@@ -2,7 +2,7 @@
 //singleton
 
 
-//object litrals
+//object litrals below
 
 const mySym =Symbol("key")
 
